@@ -19,7 +19,7 @@ RUN mkdir /install-tl-unx; \
     echo "selected_scheme scheme-basic" >> /install-tl-unx/texlive.profile; \
     /install-tl-unx/install-tl -profile /install-tl-unx/texlive.profile; \
     if [ ! -z "$(ls fonts)" ]; then \
-        cp fonts/* /usr/local/share/fonts; \
+        cp -r fonts/* /usr/local/share/fonts; \
         fc-cache -fv; \
     fi; \
     mkdir -p /home/runner/texmf/tex/latex; \
