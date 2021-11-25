@@ -4,9 +4,13 @@ booktabs
 csquotes
 doublestroke
 enumitem
+float
 fontspec
+footmisc
+ifmtarg
 latexmk
 mathtools
+multirow
 pagecolor
 parskip
 pgfopts
@@ -16,5 +20,6 @@ titlesec
 thmtools
 xcolor
 xetex
+xifthen
 xpatch
 wrapfig
