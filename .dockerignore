@@ -1,6 +1,8 @@
 **
-!custom-classes/
-!fonts/
-!install-tl-2021-unx.tar.gz
-!custom-packages/
+!classes
+classes/.gitkeep
+!fonts
+fonts/.gitkeep
+!packages
+packages/.gitkeep
 !packages.txt

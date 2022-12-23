@@ -1,5 +1,6 @@
 biber
 biblatex
+bigfoot
 booktabs
 csquotes
 doublestroke
